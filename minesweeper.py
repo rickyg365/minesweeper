@@ -1,4 +1,5 @@
 import os
+import sys
 
 import time
 import random
@@ -63,8 +64,13 @@ Date: 08/14/21
 
 
 def clear_screen():
-    # if os is linux use clear, or mac?
-    os.system("cls")
+    # Default: WINDOWS
+    clear_command = "cls"
+
+    if sys.platform == "linux":
+        clear_command = "clear"
+
+    os.system(clear_command)
 
 
 class MineDisplay:
