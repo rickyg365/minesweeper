@@ -1,35 +1,41 @@
 # Minesweeper
 Console Minesweeper Game
 
-## Installing
+<br>
 
-Install with 
+## Table of Contents
+* [How to Play](#How-to-Play)
+* [Features](#Features)
+* [Coming Soon](#Coming-Soon)
+* [Setup](#Setup)
+
+
+## How to Play
+
 ```
+Score:
+ O: 0     X: 0
+ 
+ 1 ┃ 2 ┃ 3  
+━━━╋━━━╋━━━
+ 4 ┃ 5 ┃ 6 
+━━━╋━━━╋━━━
+ 7 ┃ 8 ┃ 9 
+
+Choose spot: => input the number of the corresponding square to select spot.
 ```
 
-## Countdown
 
-```python
-[ Title ]: [MM:SS] | final -> 0
-```
+## Features
+- Keeps track of player score
+- alternates start player
+- can ctrl+c out of most inputs nicely
 
+## Coming Soon:
+- [ ] Working score display
+- [ ] Custom player name
+- [ ] Custom Player symbol
+- [ ] Add automatic platform detector for clear_screen 
+- [ ] Game Over screen
+- [ ] potentially add socket capabilities for multiplayer play?
 
-## Regular
-
-```python
-[ Title ]: [MM:SS] | 0 -> final
-```
-
-## Win10Toast
-
-```python
-# Displays a toast notification
-```
-
-<details>
-<summary>Heading</summary>
-
-some detail
-</details>
-
-<!-- This is a test, no need to translate -->
