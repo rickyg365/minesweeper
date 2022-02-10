@@ -1,4 +1,4 @@
-# Mnesweeper
+# Minesweeper
 Console Minesweeper Game
 
 ## Installing
