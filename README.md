@@ -16,13 +16,12 @@ Console Minesweeper Game
 Score:
  O: 0     X: 0
  
- 1 ┃ 2 ┃ 3  
-━━━╋━━━╋━━━
- 4 ┃ 5 ┃ 6 
-━━━╋━━━╋━━━
- 7 ┃ 8 ┃ 9 
-
-Choose spot: => input the number of the corresponding square to select spot.
+   0 1 2 3 4
+  ┏━━━━━━━━━┓
+0 ┃█┃█┃ ┃ ┃█┃   
+1 ┃█┃█┃X┃█┃█┃
+2 ┃█┃█┃█┃█┃█┃
+3 ┗━━━━━━━━━┛
 ```
 
 
